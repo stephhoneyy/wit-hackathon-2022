@@ -9,9 +9,8 @@ export default function Card({ card }) {
     
     return (
         <div className="card">
-            <img src = "/joemama.jpg" alt ="joemmama"></img>
+            <img id = "joemama" src = "/joemama.jpg" alt ="joemmama"></img>
 
-            <div>Image here pls</div>
             <div className="card-name">
                 {card.name}
             </div>
