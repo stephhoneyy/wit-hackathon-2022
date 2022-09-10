@@ -1,17 +1,19 @@
 #welcome-box {
   background-color: #F3ECE4;
-  background-image: '/mesh-gradient_1.png';
   width: 829px;
   height: 246px;
   border-radius: 15px;
   justify-content: flex-end;
+  background-size: cover;
 }
 
 #welcome-content{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: left;
   height: 100%;
   width: 100%;
+  top: 0;
+  left: 0;
 }
+

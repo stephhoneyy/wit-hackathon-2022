@@ -19,9 +19,14 @@ export default function Home() {
     return (
         <div className="home">
           <h2>project name heherjeh</h2>
-          <CardList cards={cardInput}/>
+          <Card card = {{name: "joe mama"}}/>
           <Welcome />
-          <Profile />
+            <Grid container>
+                <Grid item xs={5.3}></Grid>
+                <Grid className="homeContent" item xs={6.2}>
+                    <CardList cards={cardInput}/>
+                </Grid>
+            </Grid>
             <Profile />
         </div>
 
