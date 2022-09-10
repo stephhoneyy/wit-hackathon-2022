@@ -1,0 +1,31 @@
+img{
+    width: 40px;
+    height: 40px;
+    margin-top :40px;
+}
+
+.stickers-container{
+    background-color: #F3ECE4;
+    padding: 25px;
+    border-radius: 25px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+h2{
+    padding-top: 30px;
+    text-align: center;
+}
+
+hr{
+    width : 95%;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+}
