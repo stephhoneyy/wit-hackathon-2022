@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid';
 import { Button } from '@mui/material';
 import { useNavigate } from "react-router-dom";
 import Card from '../componentos/Card.js'
+import Profile from '../componentos/Profile.js';
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
                     <Card card = {{name: "joe mama"}}/>
                 </Grid>
             </Grid>
+            <Profile />
         </div>
     )
 }
