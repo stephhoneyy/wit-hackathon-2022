@@ -15,8 +15,8 @@ export default function Profile() {
       <div className="stats">
           <Grid container spacing={2}>
               <Grid item xs={4}><div>Friends</div><div>10</div></Grid>
-              <Grid item xs={4}>Stickers 30</Grid>
-              <Grid item xs={4}>Ranking #1</Grid>
+              <Grid item xs={4}><div>Stickers</div><div>30</div></Grid>
+              <Grid item xs={4}><div>Ranking</div><div>#1</div></Grid>
           </Grid>
       </div>
       </article>
