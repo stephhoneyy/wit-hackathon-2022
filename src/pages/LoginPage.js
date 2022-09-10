@@ -3,6 +3,7 @@ import { Link, Navigate } from 'react-router-dom'
 import Grid from '@mui/material/Grid';
 import { Button } from '@mui/material';
 import { useNavigate } from "react-router-dom";
+import Card from '../componentos/Card.js'
 
 export default function LoginPage({ user }) {
     
@@ -22,6 +23,7 @@ export default function LoginPage({ user }) {
 
     return (
         <div className="login">
+            <Card card = {{name: "joe mama"}}/>
             <Grid container>
                     <Grid item xs={5.3}></Grid>
                     <Grid className="loginContent" item xs={6.2}>
