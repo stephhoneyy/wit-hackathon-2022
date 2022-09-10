@@ -2,3 +2,7 @@
     background-color: #F3ECE4;
     border-radius: 25px;
 }
+
+.card-content {
+    padding: 20px;
+}
