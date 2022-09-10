@@ -14,9 +14,10 @@ const CustomCheckbox = styled(Checkbox)(({ theme }) => ({
   }));
 
 export default function AssignmentTask({ task, setDone }) {
+    let taskNameClass = task.done ? "completed-task-name" : "task-name"
     return (
         <div className="assignment-task">
-            <div className="task-name">{task.name}</div>
+            <div className={taskNameClass}>{task.name}</div>
             <CustomCheckbox 
                 icon={<CircleOutlinedIcon />}
                 checkedIcon={<CircleIcon />}

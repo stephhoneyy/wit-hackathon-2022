@@ -17,6 +17,11 @@ const tasks = [
         id: 3,
         name: "oosd project 2A",
         done: true,
+    },
+    {
+        id: 4,
+        name: "buy chicken nuggets for rel",
+        done: false,
     }
 ];
 
