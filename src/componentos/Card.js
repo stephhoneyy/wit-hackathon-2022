@@ -1,9 +1,9 @@
 import React from 'react';
 import './Card.css';
-// import phoyo from "../../manifest.json"
 // import { FaTrash } from 'react-icons/fa';
 // import CardDropDown from './CardDropDown';
 
+// components for the leaderboard cards
 export default function Card({ card }) {
     
     return (
