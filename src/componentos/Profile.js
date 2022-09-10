@@ -1,11 +1,12 @@
 import React from "react";
 import { Grid } from "@mui/material";
 import "./Profile.css";
+import { CardHeader } from "./CardHeader";
 
 export default function Profile() {
   return (
     <div id="profile-container">
-      <h2>Profile</h2>
+      <CardHeader title="Profile" />
       <article>
         <div className="name-container">
             <img src="/joemama.jpg" alt="Joe Mama" />

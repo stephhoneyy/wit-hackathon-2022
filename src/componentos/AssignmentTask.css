@@ -1,0 +1,10 @@
+.assignment-task {
+    background-color: #fcf9f6;
+    border-radius: 25px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px 25px;
+}
