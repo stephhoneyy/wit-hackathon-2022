@@ -1,4 +1,5 @@
 import LeaderboardEntry from './LeaderboardEntry';
+import "./LeaderboardList.css";
 
 // component for the list of leaderboard cards
 export default function LeaderboardList( { cards } ){
@@ -10,7 +11,10 @@ export default function LeaderboardList( { cards } ){
                 ))}  
             <div className="name-container">
                 <img src="/joemama.jpg" alt="Joe Mama"/>
+                <div>
                     <h3>Joe mama</h3>
+                    <p>Current Ranking: #1</p>
+                </div>
             </div>
 
         </div>
