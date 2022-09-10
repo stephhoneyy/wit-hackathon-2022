@@ -21,10 +21,6 @@ export default function Home() {
           <h2>project name heherjeh</h2>
           <Leaderboard cards={cardInput}/>
           <Welcome />
-          <Profile />
-
         </div>
-
-
     )
 }

@@ -1,5 +1,4 @@
 import LeaderboardEntry from './LeaderboardEntry';
-import './LeaderboardList.css';
 
 // component for the list of leaderboard cards
 export default function LeaderboardList( { cards } ){
