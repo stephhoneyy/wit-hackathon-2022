@@ -4,17 +4,18 @@ import Grid from '@mui/material/Grid';
 import { Button } from '@mui/material';
 import { useNavigate } from "react-router-dom";
 import Card from '../componentos/Card.js'
+import Welcome from '../componentos/Welcome.js';
+import Profile from '../componentos/Profile.js';
 
 export default function Home() {
     return (
         <div className="home">
-            <Grid container>
-                <Grid item xs={5.3}></Grid>
-                <Grid className="homeContent" item xs={6.2}>
-                    <h2>Home</h2>
-                    <Card card = {{name: "joe mama"}}/>
-                </Grid>
-            </Grid>
+          <h2>project name heherjeh</h2>
+          <Card card = {{name: "joe mama"}}/>
+          <Welcome />
+          <Profile />
         </div>
+
+
     )
 }
