@@ -5,11 +5,10 @@ import './Card.css';
 // import CardDropDown from './CardDropDown';
 
 export default function Card({ card }) {
-    // const currency = '$'
     
     return (
         <div className="card">
-            <img id = "joemama" src = "/joemama.jpg" alt ="joemmama"></img>
+            <img src = {card.img} alt ="joemmama"></img>
 
             <div className="card-name">
                 {card.name}
