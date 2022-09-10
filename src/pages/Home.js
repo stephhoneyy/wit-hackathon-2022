@@ -7,6 +7,7 @@ import Card from '../componentos/Card.js'
 import Welcome from '../componentos/Welcome.js';
 import Profile from '../componentos/Profile.js';
 import Leaderboard from '../componentos/Leaderboard.js';
+import WishBanner from '../componentos/WishBanner.js';
 
 const cardInput = [
     {id: 1, name:"joe mama", img: "joemama.jpg"},
@@ -22,7 +23,6 @@ export default function Home() {
           <Leaderboard cards={cardInput}/>
           <Welcome />
           <Profile />
-
         </div>
 
 
