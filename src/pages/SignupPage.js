@@ -15,9 +15,6 @@ const SignUpPage = () => {
         navigate("/login");
     }
 
-
-
-
     return (
         <div className="signup">
             <div className='signupHeader'><h1>sign up!</h1></div>

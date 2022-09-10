@@ -1,5 +1,5 @@
-body {
-    background-image: "url(/mesh-gradient_1.png)";
+body { 
+    background-image: url("/mesh-gradient_1.png");
     background-size: cover;
 }
 
