@@ -7,7 +7,7 @@ export default function Card(props) {
     return (
         <div className="card">
             <CardHeader title={props.title} />
-            <div>
+            <div className="card-content">
                 {props.children}
             </div>
         </div>

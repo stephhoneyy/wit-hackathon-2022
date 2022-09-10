@@ -24,7 +24,5 @@ export default function Home() {
           <Welcome />
           <Profile />
         </div>
-
-
     )
 }
