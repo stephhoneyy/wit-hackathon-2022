@@ -4,7 +4,9 @@ import Grid from '@mui/material/Grid';
 import { Button } from '@mui/material';
 import { useNavigate } from "react-router-dom";
 import Card from '../componentos/Card.js'
-import { Leaderboard } from '../componentos/Leaderboard.js';
+import Welcome from '../componentos/Welcome.js';
+import Profile from '../componentos/Profile.js';
+import CardList from '../componentos/CardList.js'
 
 const cardInput = [
     {id: 1, name:"joe mama", img: "joemama.jpg"},
@@ -16,13 +18,13 @@ const cardInput = [
 export default function Home() {
     return (
         <div className="home">
-            <Grid container>
-                <Grid item xs={5.3}></Grid>
-                <Grid className="homeContent" item xs={6.2}>
-                    <h2>Home</h2>
-                    <Leaderboard cards={cardInput}/>
-                </Grid>
-            </Grid>
+          <h2>project name heherjeh</h2>
+          <CardList cards={cardInput}/>
+          <Welcome />
+          <Profile />
+
         </div>
+
+
     )
 }
