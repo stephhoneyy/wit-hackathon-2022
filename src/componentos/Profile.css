@@ -1,0 +1,34 @@
+#profile-container {
+  background-color: #F3ECE4;
+  border-radius: 20px;
+}
+
+#profile-container>h2 {
+  background-color: #588980;
+  padding: 20px;
+  margin: 0;
+  border-radius: 20px;
+  color: white;
+  text-transform: lowercase;
+}
+
+img {
+  width: 75px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+#profile-container>article{
+  padding: 20px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.stats {
+  text-align: center;
+  margin-top: 20px;
+}
