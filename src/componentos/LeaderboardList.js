@@ -1,13 +1,13 @@
-import Card from './Card';
-import './CardList.css';
+import LeaderboardEntry from './LeaderboardEntry';
+import './LeaderboardList.css';
 
 // component for the list of leaderboard cards
-export default function CardList( { cards } ){
+export default function LeaderboardList( { cards } ){
 
     return (
-        <div className = "card-list">
+        <div className = "leaderboard-list">
             {cards.map(c => (
-                <Card key={c.id} card={c} /> /* c is each individual row of cardInput*/
+                <LeaderboardEntry key={c.id} card={c} /> /* c is each individual row of cardInput*/
                 ))}  
             <div className="name-container">
                 <img src="/joemama.jpg" alt="Joe Mama"/>

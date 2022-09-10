@@ -1,14 +1,13 @@
 import React from "react";
-import CardHeader from "./CardHeader";
-import CardList from "./CardList";
+import Card from './Card';
+import LeaderboardList from "./LeaderboardList";
 
 import "./Leaderboard.css";
 
-export function Leaderboard({ cards }) {
+export default function Leaderboard({ cards }) {
     return (
-        <div id="leaderboard">
-            <CardHeader  title="leaderboard" />
-            <CardList cards={cards} />
-        </div>
+        <>
+            <Card title="leaderboard" component={<LeaderboardList cards={cards} />} />
+        </>
     )
 }

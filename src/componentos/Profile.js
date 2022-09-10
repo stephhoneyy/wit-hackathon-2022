@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from "@mui/material";
 import "./Profile.css";
-import { CardHeader } from "./CardHeader";
+import CardHeader from "./CardHeader";
 
 export default function Profile() {
   return (

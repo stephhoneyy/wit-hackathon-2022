@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import Card from '../componentos/Card.js'
 import Welcome from '../componentos/Welcome.js';
 import Profile from '../componentos/Profile.js';
-import CardList from '../componentos/CardList.js'
+import Leaderboard from '../componentos/Leaderboard.js';
 
 const cardInput = [
     {id: 1, name:"joe mama", img: "joemama.jpg"},
@@ -19,7 +19,7 @@ export default function Home() {
     return (
         <div className="home">
           <h2>project name heherjeh</h2>
-          <CardList cards={cardInput}/>
+          <Leaderboard cards={cardInput}/>
           <Welcome />
           <Profile />
 
