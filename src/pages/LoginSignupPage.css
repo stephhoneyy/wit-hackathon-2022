@@ -23,16 +23,17 @@ button {
 }
 
 .signupHeader {
-    position: absolute;
-    margin: auto;
+    text-align: center;
 }
 
-.signupForm {
+.signupForm, .login {
     padding: 50px;
     border-radius: 30px;
 
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(5px);
+    border-style: outset;
+    border-width: 0.5px;
 
     position: absolute;
     margin: auto;
@@ -40,6 +41,24 @@ button {
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+.signupForm {
     height: 600px;
     width: 525px;
+}
+
+.login {
+    height: 395px;
+    width: 698px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linktoLogin {
+    text-align: center;
 }

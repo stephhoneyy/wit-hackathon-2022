@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 
-import './SignupPage.css';
+import './LoginSignupPage.css';
 
 const SignUpPage = () => {
     const navigate = useNavigate();
@@ -17,8 +17,8 @@ const SignUpPage = () => {
 
     return (
         <div className="signup">
-            <div className='signupHeader'><h1>sign up!</h1></div>
             <div className='signupForm'>
+            <div className='signupHeader'><p>sign up!</p></div>
             <form onSubmit={handleSubmit}>
                 <p>
                     <label>full name</label><br/>
