@@ -6,14 +6,13 @@ export default function Welcome() {
   return (
     <div id="welcome-box" style={{ backgroundImage: "url(/mesh-gradient_1.png)" }}>
       <div id = "welcome-content">
-        <text id>
+        <h2>
           Hello, Bingus 
-          </text>
-          <text>
+          </h2>
+          <h2>
           Time to get productive, whore!
-        </text>
+        </h2>
       </div>
-      <img id = "bingus" src = "/unknown.png" alt ="bingus"></img>
     </div>
   );
 }
