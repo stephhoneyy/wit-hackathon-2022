@@ -7,6 +7,7 @@ import Card from '../componentos/Card.js'
 import Welcome from '../componentos/Welcome.js';
 import Profile from '../componentos/Profile.js';
 import Leaderboard from '../componentos/Leaderboard.js';
+import WishBanner from '../componentos/WishBanner.js';
 import Assignments from '../componentos/Assignments.js';
 
 const cardInput = [
