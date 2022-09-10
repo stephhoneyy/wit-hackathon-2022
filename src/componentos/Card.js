@@ -3,11 +3,13 @@ import CardHeader from "./CardHeader";
 
 import "./Card.css";
 
-export default function Card({ title, component }) {
+export default function Card(props) {
     return (
         <div className="card">
-            <CardHeader title={title} />
-            {component}
+            <CardHeader title={props.title} />
+            <div>
+                {props.children}
+            </div>
         </div>
     )
 }

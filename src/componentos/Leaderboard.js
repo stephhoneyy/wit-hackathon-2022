@@ -7,7 +7,9 @@ import "./Leaderboard.css";
 export default function Leaderboard({ cards }) {
     return (
         <>
-            <Card title="leaderboard" component={<LeaderboardList cards={cards} />} />
+            <Card title="leaderboard">
+                <LeaderboardList cards={cards} />
+            </Card>
         </>
     )
 }
