@@ -10,8 +10,8 @@ function App() {
   return (
     <HashRouter >
         <Routes>
-          <Route path="/login" element={<Login />} /> 
-          <Route path="/signup" element={<SignUp />} />
+          <Route exact path="/login" element={<Login />} /> 
+          <Route exact path="/signup" element={<SignUp />} />
           <Route index element={<Home />} />
         </Routes>
       </HashRouter>

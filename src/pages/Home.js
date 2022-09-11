@@ -24,13 +24,19 @@ const cardInput = [
 
 export default function Home() {
     return (
-        <div className="home">
-          {/* <h2>project name heherjeh</h2> */}
-          <Welcome />
-          <Profile />
-          <Assignments />
-          <div><WishBanner /><StickerCollection/></div>
-          <Leaderboard cards={cardInput}/>
-        </div>
+        <>
+             <div>
+                <Link to="/login"> Login</Link>
+                <Link to="/signup"> Register</Link>
+            </div>
+            <div className="home">
+            {/* <h2>project name heherjeh</h2> */}
+            <Welcome />
+            <Profile />
+            <Assignments />
+            <div><WishBanner /><StickerCollection/></div>
+            <Leaderboard cards={cardInput}/>
+            </div>
+        </>
     )
 }
