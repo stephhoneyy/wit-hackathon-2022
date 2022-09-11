@@ -1,5 +1,6 @@
 body { 
-    background-image: url("./mesh-gradient_1.png");
+    /* background-image: url("./mesh-gradient_1.png"); */
+    background-color: #F2F0EE;
     background-size: cover;
 }
 
