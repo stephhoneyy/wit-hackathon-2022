@@ -2,19 +2,19 @@ import './App.css';
 import Login from './pages/LoginPage';
 import SignUp from './pages/SignupPage';
 import Home from './pages/Home';
-import { BrowserRouter, Router } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Router } from 'react-router-dom';
 import {Route} from 'react-router-dom';
 import {Routes} from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter >
+    <HashRouter >
         <Routes>
           <Route path="/login" element={<Login />} /> 
           <Route path="/signup" element={<SignUp />} />
           <Route index element={<Home />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
   );
   //   <div className="App">
   //     <header className="App-header">

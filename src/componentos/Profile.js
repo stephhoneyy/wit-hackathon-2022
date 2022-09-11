@@ -3,12 +3,14 @@ import { Grid } from "@mui/material";
 import "./Profile.css";
 import Card from "./Card";
 
+import joemama from "./joemama.jpg";
+
 export default function Profile() {
   return (
     <Card title="Profile" id="profile-container">
       <article>
       <div className="name-container">
-          <img src="/joemama.jpg" alt="Joe Mama" />
+          <img src={joemama} alt="Joe Mama" />
           <h3>Joe Mama</h3>
       </div>
       <hr />

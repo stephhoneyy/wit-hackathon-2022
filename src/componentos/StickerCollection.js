@@ -1,23 +1,24 @@
 import React from "react";
 import Card from "./Card";
 import "./StickerCollection.css";
+import joemama from "./joemama.jpg";
 
 export default function StickerCollection(){
     return (
         <div className="stickers-container">
             <h2>Sticker Collection</h2>
             <hr/>
-            <div class="row">
-                <img src="/joemama.jpg" alt="Joe mama"/>
-                <img src="/joemama.jpg" alt="Joe mama"/>
-                <img src="/joemama.jpg" alt="Joe mama"/>
-                <img src="/joemama.jpg" alt="Joe mama"/>
+            <div className="row">
+                <img src={joemama} alt="Joe mama"/>
+                <img src={joemama} alt="Joe mama"/>
+                <img src={joemama} alt="Joe mama"/>
+                <img src={joemama} alt="Joe mama"/>
             </div>
-            <div class="row">
-                <img src="/joemama.jpg" alt="Joe mama"/>
-                <img src="/joemama.jpg" alt="Joe mama"/>
-                <img src="/joemama.jpg" alt="Joe mama"/>
-                <img src="/joemama.jpg" alt="Joe mama"/>
+            <div className="row">
+                <img src={joemama} alt="Joe mama"/>
+                <img src={joemama} alt="Joe mama"/>
+                <img src={joemama} alt="Joe mama"/>
+                <img src={joemama} alt="Joe mama"/>
             </div>    
 
 
