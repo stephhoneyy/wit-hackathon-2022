@@ -4,14 +4,16 @@ import "./Profile.css";
 import Card from "./Card";
 
 import joemama from "./joemama.jpg";
+import bingusbingus from "./bingus bingus.png";
+
 
 export default function Profile() {
   return (
     <Card title="Profile" id="profile-container">
       <article>
       <div className="name-container">
-          <img src={joemama} alt="Joe Mama" />
-          <h3>Joe Mama</h3>
+          <img src={bingusbingus} alt="bingusbingus" />
+          <h3>bingusbingus</h3>
       </div>
       <hr />
       <div className="stats">

@@ -18,8 +18,8 @@ import amogus from "../componentos/amogus.jpg";
 import './Home.css';
 
 const cardInput = [
-    {id: 1, name:"joe mama", img: joemama},
-    {id: 2, name:"bingus bingus", img: bingusbingus},
+    {id: 1, name:"bingus bingus", img: bingusbingus},
+    {id: 2, name:"joemama", img: joemama},
     {id: 3, name:"amogus", img: amogus}
     // {id: 4, name:"joe mama", img: "joemama.jpg"},
 ];

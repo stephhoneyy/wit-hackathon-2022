@@ -1,7 +1,9 @@
 import LeaderboardEntry from './LeaderboardEntry';
 import "./LeaderboardList.css";
 
-import joemama from "./joemama.jpg"
+import joemama from "./joemama.jpg";
+import bingusbingus from "./bingus bingus.png";
+
 
 // component for the list of leaderboard cards
 export default function LeaderboardList( { cards } ){
@@ -12,9 +14,9 @@ export default function LeaderboardList( { cards } ){
                 <LeaderboardEntry key={c.id} card={c} /> /* c is each individual row of cardInput*/
                 ))}  
             <div className="name-container">
-                <img src={joemama} alt="Joe Mama"/>
+                <img src={bingusbingus} alt="bingusbingus"/>
                 <div>
-                    <h3>Joe mama</h3>
+                    <h3>bingusbingus</h3>
                     <p>Current Ranking: #1</p>
                 </div>
             </div>
