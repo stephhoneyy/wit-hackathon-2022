@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/wit-hackathon-2022/static/css/main.9e2f55d5.css",
-    "main.js": "/wit-hackathon-2022/static/js/main.182d9b34.js",
+    "main.css": "/wit-hackathon-2022/static/css/main.8f767ccc.css",
+    "main.js": "/wit-hackathon-2022/static/js/main.c15a7c10.js",
     "static/js/787.2680f53d.chunk.js": "/wit-hackathon-2022/static/js/787.2680f53d.chunk.js",
     "static/media/mesh-gradient_1.png": "/wit-hackathon-2022/static/media/mesh-gradient_1.33da6436861b3ca75c85.png",
     "static/media/bingus bingus.png": "/wit-hackathon-2022/static/media/bingus bingus.a1432ca0c9ac75f65c34.png",
     "static/media/joemama.jpg": "/wit-hackathon-2022/static/media/joemama.2da645a3279089c7cf72.jpg",
     "index.html": "/wit-hackathon-2022/index.html",
-    "main.9e2f55d5.css.map": "/wit-hackathon-2022/static/css/main.9e2f55d5.css.map",
-    "main.182d9b34.js.map": "/wit-hackathon-2022/static/js/main.182d9b34.js.map",
+    "main.8f767ccc.css.map": "/wit-hackathon-2022/static/css/main.8f767ccc.css.map",
+    "main.c15a7c10.js.map": "/wit-hackathon-2022/static/js/main.c15a7c10.js.map",
     "787.2680f53d.chunk.js.map": "/wit-hackathon-2022/static/js/787.2680f53d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e2f55d5.css",
-    "static/js/main.182d9b34.js"
+    "static/css/main.8f767ccc.css",
+    "static/js/main.c15a7c10.js"
   ]
 }
