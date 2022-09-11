@@ -6,10 +6,10 @@ import "./Leaderboard.css";
 
 export default function Leaderboard({ cards }) {
     return (
-        <>
+        <div className="leaderboardItem">
             <Card title="leaderboard">
                 <LeaderboardList cards={cards} />
             </Card>
-        </>
+        </div>
     )
 }

@@ -9,6 +9,9 @@ img{
     padding: 25px;
     border-radius: 25px;
 
+    grid-column: 2;
+    grid-row: 3;
+
     /* display: flex;
     justify-content: center;
     align-items: center; */

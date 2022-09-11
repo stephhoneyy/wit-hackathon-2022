@@ -7,10 +7,10 @@ export default function Welcome() {
     <div id="welcome-box" style={{ backgroundImage: "url(/mesh-gradient_1.png)" }}>
       <div id = "welcome-content">
         <h2>
-          Hello, Bingus 
+          Hello, Bingus!
           </h2>
           <h2>
-          Time to get productive, whore!
+          Time to get productive, bestie!
         </h2>
       </div>
     </div>

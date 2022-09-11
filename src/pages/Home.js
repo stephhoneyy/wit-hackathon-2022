@@ -10,6 +10,8 @@ import Leaderboard from '../componentos/Leaderboard.js';
 import WishBanner from '../componentos/WishBanner.js';
 import Assignments from '../componentos/Assignments.js';
 
+import './Home.css';
+
 const cardInput = [
     {id: 1, name:"joe mama", img: "joemama.jpg"},
     {id: 2, name:"bingus bingus", img: "bingus bingus.png"}
@@ -20,10 +22,12 @@ const cardInput = [
 export default function Home() {
     return (
         <div className="home">
-          <h2>project name heherjeh</h2>
-          <Leaderboard cards={cardInput}/>
+          {/* <h2>project name heherjeh</h2> */}
           <Welcome />
+          <Profile />
           <Assignments />
+          <WishBanner />
+          <Leaderboard cards={cardInput}/>
         </div>
     )
 }

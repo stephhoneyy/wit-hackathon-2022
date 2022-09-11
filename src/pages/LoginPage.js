@@ -35,9 +35,9 @@ export default function LoginPage({ user }) {
                     <input type="password" name="password" onChange={(e)=>{setPassword(e.currentTarget.value)}} value={password} required />
                 </p>
                 <div className='buttonGroup'>
-                    <button className="buttonlogin" variant="contained" id="/" type="submit">Login</button>
+                    <button className="buttonlogin" variant="contained" id="/" type="submit">login</button>
                     <p></p>
-                    <p className="linktoSignUp">Don't have an account? <Link to="/signup">Register</Link></p>
+                    <div className='linktoSignup'><p className="linktoSignUp">Don't have an account? <Link to="/signup">Register</Link></p></div>
                 </div>
             </form>
         </div>

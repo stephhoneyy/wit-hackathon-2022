@@ -2,4 +2,7 @@
     padding: 25px;
     background-color: #F3ECE4;
     border-radius: 25px;
+
+    grid-row: 2/4;
+    grid-column: 1;
 }

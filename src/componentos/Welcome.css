@@ -1,16 +1,21 @@
 #welcome-box {
   background-color: #F3ECE4;
-  width: 829px;
-  height: 246px;
+  /* width: 829px;
+  height: 246px; */
   border-radius: 15px;
   justify-content: flex-end;
   background-size: cover;
   position: relative;
+
+  grid-column: 1/3;
 }
 
 #welcome-content{
   position: absolute;
   bottom: 0;
   left: 0;
+  padding: 20px;
 }
+
+
 

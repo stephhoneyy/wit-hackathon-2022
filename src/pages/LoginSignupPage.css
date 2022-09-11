@@ -59,6 +59,6 @@ button {
     align-items: center;
 }
 
-.linktoLogin {
+.linktoLogin, .linktoSignup {
     text-align: center;
 }
