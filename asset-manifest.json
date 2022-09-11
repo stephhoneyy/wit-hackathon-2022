@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wit-hackathon-2022/static/css/main.e62fac41.css",
+    "main.js": "/wit-hackathon-2022/static/js/main.e25bfb30.js",
+    "static/js/787.2680f53d.chunk.js": "/wit-hackathon-2022/static/js/787.2680f53d.chunk.js",
+    "static/media/mesh-gradient_1.png": "/wit-hackathon-2022/static/media/mesh-gradient_1.33da6436861b3ca75c85.png",
+    "index.html": "/wit-hackathon-2022/index.html",
+    "main.e62fac41.css.map": "/wit-hackathon-2022/static/css/main.e62fac41.css.map",
+    "main.e25bfb30.js.map": "/wit-hackathon-2022/static/js/main.e25bfb30.js.map",
+    "787.2680f53d.chunk.js.map": "/wit-hackathon-2022/static/js/787.2680f53d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e62fac41.css",
+    "static/js/main.e25bfb30.js"
+  ]
+}
