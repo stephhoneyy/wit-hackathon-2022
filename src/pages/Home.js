@@ -13,12 +13,14 @@ import StickerCollection from '../componentos/StickerCollection.js'
 
 import joemama from "../componentos/joemama.jpg";
 import bingusbingus from "../componentos/bingus bingus.png";
+import amogus from "../componentos/amogus.jpg";
+
 import './Home.css';
 
 const cardInput = [
     {id: 1, name:"joe mama", img: joemama},
-    {id: 2, name:"bingus bingus", img: bingusbingus}
-    // {id: 3, name:"joe mama", img: "joemama.jpg"},
+    {id: 2, name:"bingus bingus", img: bingusbingus},
+    {id: 3, name:"amogus", img: amogus}
     // {id: 4, name:"joe mama", img: "joemama.jpg"},
 ];
 
