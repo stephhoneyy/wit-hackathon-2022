@@ -9,6 +9,7 @@ import Profile from '../componentos/Profile.js';
 import Leaderboard from '../componentos/Leaderboard.js';
 import WishBanner from '../componentos/WishBanner.js';
 import Assignments from '../componentos/Assignments.js';
+import StickerCollection from '../componentos/StickerCollection.js'
 
 import './Home.css';
 
@@ -26,7 +27,7 @@ export default function Home() {
           <Welcome />
           <Profile />
           <Assignments />
-          <WishBanner />
+          <div><WishBanner /><StickerCollection/></div>
           <Leaderboard cards={cardInput}/>
         </div>
     )

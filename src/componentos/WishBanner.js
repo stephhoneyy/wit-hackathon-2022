@@ -5,7 +5,7 @@ import "./WishBanner.css";
 export default function WishBanner(){
     return (
         <>
-            <Card title="Standard Wish Banner">
+            <Card id = "wishbanner" title="Standard Wish Banner">
                 <div className="wishbanner-container">
                     <img src="/joemama.jpg" alt="Joe mama"/>
                     <img src="/joemama.jpg" alt="Joe mama"/>
